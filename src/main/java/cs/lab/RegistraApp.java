@@ -9,7 +9,7 @@ public class RegistraApp {
 
     }
 
-    private List<Observer> observers = new ArrayList<Observer>();
+    private final List<Observer> observers = new ArrayList<>();
     private Clase clase;
 
     public void addObserver(Observer observer) {
@@ -26,7 +26,7 @@ public class RegistraApp {
     }
 
     private void notifyObservers() {
-        observers.forEach(ob -> ob.update());
+        observers.forEach(Observer::update);
     }
 
 }
