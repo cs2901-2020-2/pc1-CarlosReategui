@@ -35,7 +35,7 @@ public class RegistraAppTest {
         new CounterAlumnos(app);
         new DGA(app);
 
-        Clase clase = new Clase("2020-II", "CS2901", "ES", "Discretas", "1", "Semana05", "Jesus", "10/08", "08:00-10:00","Laboratorio", "https://utec.zoom.us/rec/share/");
+        Clase clase = new Clase("2020-II", "CS2901", "ES", "Ingeniería de Software", "1", "Semana05", "Jesus", "10/08", "08:00-10:00","Laboratorio", "https://utec.zoom.us/rec/share/");
 
         app.setClase(clase);
 

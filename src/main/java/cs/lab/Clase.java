@@ -18,7 +18,7 @@ public class Clase {
         this.semestre = semestre;
         checkCodigo(codigo);
         checkIdioma(idioma);
-        checkCurso(curso);
+        this.curso = curso;
         this.seccion = seccion;
         checkSemana(semana);
         checkProfesor(profesor);
@@ -40,11 +40,6 @@ public class Clase {
     private void checkProfesor(String profesor) throws InvalidCourseFormatException {
         checkAlphaNumeric(isAlphaNumeric(profesor), "El nombre del profesor no es válido");
         this.profesor = profesor;
-    }
-
-    private void checkCurso(String curso) throws InvalidCourseFormatException{
-        checkAlphaNumeric(isAlphaNumeric(curso), "El curso no es válido");
-        this.curso = curso;
     }
 
     private void checkAlphaNumeric(boolean alphaNumeric, String s) throws InvalidCourseFormatException {
