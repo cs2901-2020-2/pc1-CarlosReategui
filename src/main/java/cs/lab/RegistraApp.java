@@ -5,10 +5,6 @@ import java.util.List;
 
 public class RegistraApp {
 
-    public RegistraApp() {
-
-    }
-
     private final List<Observer> observers = new ArrayList<>();
     private Clase clase;
 

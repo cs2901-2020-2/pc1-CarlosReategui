@@ -12,6 +12,7 @@ public class RegistraAppTest {
 
     @Test
     public void testCase0() throws InvalidCourseFormatException {
+        long beginTime = System.currentTimeMillis();
         RegistraApp app = new RegistraApp();
 
         new CE2A(app);
@@ -23,7 +24,11 @@ public class RegistraAppTest {
 
         app.setClase(clase);
 
+        long finalTime = System.currentTimeMillis();
+        long executionTime = finalTime - beginTime;
+
         Assert.assertEquals(clase, app.getClase());
+        Assert.assertTrue(executionTime < 500);
     }
 
     @Test(invocationCount = 100, threadPoolSize = 100)
@@ -40,6 +45,31 @@ public class RegistraAppTest {
         app.setClase(clase);
 
         Assert.assertEquals(clase, app.getClase());
+    }
+
+    @Test(expectedExceptions = InvalidCourseFormatException.class)
+    public void testCase2() throws InvalidCourseFormatException {
+        long beginTime = System.currentTimeMillis();
+        RegistraApp app = new RegistraApp();
+
+        new CE2A(app);
+        new CounterDocentes(app);
+        new CounterAlumnos(app);
+        new DGA(app);
+
+        Clase clase = new Clase("2020-II", "CS2901", "DE", "Discretas", "1", "Semana05", "Jesus", "10/08", "08:00-10:00","Laboratorio", "https://utec.zoom.us/rec/share/");
+
+        app.setClase(clase);
+
+        long finalTime = System.currentTimeMillis();
+        long executionTime = finalTime - beginTime;
+
+        Assert.assertEquals(clase, app.getClase());
+        Assert.assertTrue(executionTime < 500);
+    }
+
+    @Test
+    public void testCase3() throws InvalidCourseFormatException {
     }
 
 }

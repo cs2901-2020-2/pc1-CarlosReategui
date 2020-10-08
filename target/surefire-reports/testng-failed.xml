@@ -5,7 +5,7 @@
     <classes>
       <class name="cs.lab.RegistraAppTest">
         <methods>
-          <include name="testCase0"/>
+          <include name="testCase2"/>
         </methods>
       </class> <!-- cs.lab.RegistraAppTest -->
     </classes>

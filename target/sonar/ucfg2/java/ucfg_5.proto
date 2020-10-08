@@ -1,0 +1,207 @@
+
+2cs.lab.Clase#getFormattedClass()Ljava/lang/String;Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java (#"1*Ô&
+1Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (ù
+ö
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (
+%0java.lang.String"__id**
+cs.lab.Clase"
+
+semestre¢
+ü
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+ õ
+ò
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java    (&
+%2java.lang.String"__id**
+cs.lab.Clase"
+codigoµ
+≤
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (&
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.String¢
+ü
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (,
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+ õ
+ò
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java /  (5
+%5java.lang.String"__id**
+cs.lab.Clase"
+idiomaµ
+≤
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (5
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.String¢
+ü
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (;
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+ ö
+ó
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java >  (C
+%8java.lang.String"__id**
+cs.lab.Clase"
+cursoµ
+≤
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (C
+%9java.lang.String"__concat*
+
+%7java.lang.String*
+
+%8java.lang.String§
+°
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (J
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+, ù
+ö
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java M  (T
+%11java.lang.String"__id**
+cs.lab.Clase"	
+seccion∏
+µ
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (T
+%12java.lang.String"__concat*
+
+%10java.lang.String*
+
+%11java.lang.String•
+¢
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   ([
+%13java.lang.String"__concat*
+
+%12java.lang.String*
+, ú
+ô
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java ^  (d
+%14java.lang.String"__id**
+cs.lab.Clase"
+semana∏
+µ
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (d
+%15java.lang.String"__concat*
+
+%13java.lang.String*
+
+%14java.lang.String•
+¢
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java   (k
+%16java.lang.String"__concat*
+
+%15java.lang.String*
+, û
+õ
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java! !(
+%17java.lang.String"__id**
+cs.lab.Clase"
+
+profesor∏
+µ
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java  !(
+%18java.lang.String"__concat*
+
+%16java.lang.String*
+
+%17java.lang.String•
+¢
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java  !(
+%19java.lang.String"__concat*
+
+%18java.lang.String*
+, ö
+ó
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java!" !(&
+%20java.lang.String"__id**
+cs.lab.Clase"
+date∏
+µ
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java  !(&
+%21java.lang.String"__concat*
+
+%19java.lang.String*
+
+%20java.lang.String§
+°
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java  !(,
+%22java.lang.String"__concat*
+
+%21java.lang.String*
+ õ
+ò
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java!/ !(4
+%23java.lang.String"__id**
+cs.lab.Clase"
+hours∏
+µ
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java  !(4
+%24java.lang.String"__concat*
+
+%22java.lang.String*
+
+%23java.lang.String§
+°
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java  !(:
+%25java.lang.String"__concat*
+
+%24java.lang.String*
+ ö
+ó
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java!= !(A
+%26java.lang.String"__id**
+cs.lab.Clase"
+type∏
+µ
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java  !(A
+%27java.lang.String"__concat*
+
+%25java.lang.String*
+
+%26java.lang.String"w
+Z
+P/Users/carlosreategui/Desktop/pc1-CarlosReategui/src/main/java/cs/lab/Clase.java  !(B
+
+%27java.lang.StringB
+cs.lab.Clase
