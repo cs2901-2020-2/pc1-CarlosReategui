@@ -2,28 +2,30 @@
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
+import java.util.logging.Logger;
 
-<span class="fc" id="L6">public class RegistraApp {</span>
+<span class="fc" id="L8">public class RegistraApp {</span>
 
-<span class="fc" id="L8">    private final List&lt;Observer&gt; observers = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L10">    private final List&lt;Observer&gt; observers = new ArrayList&lt;&gt;();</span>
     private Clase clase;
 
     public void addObserver(Observer observer) {
-<span class="fc" id="L12">        observers.add(observer);</span>
-<span class="fc" id="L13">    }</span>
+<span class="fc" id="L14">        observers.add(observer);</span>
+<span class="fc" id="L15">    }</span>
 
     public Clase getClase() {
-<span class="fc" id="L16">        return clase;</span>
+<span class="fc" id="L18">        return clase;</span>
     }
 
     public void setClase(Clase clase) {
-<span class="fc" id="L20">        this.clase = clase;</span>
-<span class="fc" id="L21">        notifyObservers();</span>
-<span class="fc" id="L22">    }</span>
+<span class="fc" id="L22">        this.clase = clase;</span>
+<span class="fc" id="L23">        notifyObservers();</span>
+<span class="fc" id="L24">    }</span>
 
     private void notifyObservers() {
-<span class="fc" id="L25">        observers.forEach(Observer::update);</span>
-<span class="fc" id="L26">    }</span>
+<span class="fc" id="L27">        observers.forEach(Observer::update);</span>
+<span class="fc" id="L28">    }</span>
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

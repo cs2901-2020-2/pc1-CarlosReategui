@@ -2,6 +2,8 @@ package cs.lab;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class RegistraApp {
 
