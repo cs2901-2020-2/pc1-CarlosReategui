@@ -6,7 +6,6 @@ import java.util.logging.Logger;
 public class App {
 
     static final Logger logger = Logger.getLogger(App.class.getName());
-// https://utec.zoom.us/rec/share/
 
     public static void main(String[] args) throws InvalidCourseFormatException {
         RegistraApp app = new RegistraApp();

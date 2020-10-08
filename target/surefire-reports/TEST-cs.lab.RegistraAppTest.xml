@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cs.lab.RegistraAppTest" time="0.689" tests="103" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cs.lab.RegistraAppTest" time="0.749" tests="103" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PE"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/carlosreategui/Desktop/pc1-CarlosReategui/target/surefire/surefirebooter1889272998218569798.jar /Users/carlosreategui/Desktop/pc1-CarlosReategui/target/surefire 2020-10-08T10-17-35_261-jvmRun1 surefire17961327137466861195tmp surefire_01228136499336266311tmp"/>
+    <property name="sun.java.command" value="/Users/carlosreategui/Desktop/pc1-CarlosReategui/target/surefire/surefirebooter14446028156359588738.jar /Users/carlosreategui/Desktop/pc1-CarlosReategui/target/surefire 2020-10-08T10-18-09_274-jvmRun1 surefire3211003844436958533tmp surefire_010274075078533636083tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/carlosreategui/Desktop/pc1-CarlosReategui/target/test-classes:/Users/carlosreategui/Desktop/pc1-CarlosReategui/target/classes:/Users/carlosreategui/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/carlosreategui/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/carlosreategui/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/carlosreategui/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/carlosreategui/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/carlosreategui/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/carlosreategui/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/carlosreategui/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/carlosreategui/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/carlosreategui/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/Users/carlosreategui/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/carlosreategui/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/carlosreategui/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/carlosreategui/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/carlosreategui/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/carlosreategui/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/carlosreategui/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/carlosreategui/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/carlosreategui/Desktop/pc1-CarlosReategui/target/surefire/surefirebooter1889272998218569798.jar"/>
+    <property name="surefire.real.class.path" value="/Users/carlosreategui/Desktop/pc1-CarlosReategui/target/surefire/surefirebooter14446028156359588738.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
@@ -54,68 +54,32 @@
     <property name="java.class.version" value="57.0"/>
   </properties>
   <testcase name="testCase0" classname="cs.lab.RegistraAppTest" time="0.046"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.009"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.017"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.002"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.004"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.028"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.033"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.038"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.043"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.044"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.045"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.051"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.09"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.098"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.103"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.106"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.109"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.113"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.114"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.117"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.001"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.025"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.084"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.119"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.123"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.124"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.124"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.125"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.125"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.125"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.126"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.126"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.127"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.128"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.129"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.129"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.13"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.131"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.132"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.132"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.133"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.134"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.134"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.135"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.136"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.136"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.137"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.138"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.138"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.139"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.139"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.14"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.14"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.143"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.144"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.145"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.146"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.15"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.158"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.142"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.153"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.159"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.159"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.16"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.16"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.161"/>
@@ -125,35 +89,71 @@
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.163"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.163"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.164"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.164"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.165"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.165"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.166"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.166"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.166"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.167"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.167"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.168"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.168"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.169"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.169"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.17"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.17"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.171"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.171"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.172"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.172"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.173"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.173"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.173"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.174"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.174"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.175"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.175"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.176"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.177"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.176"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.177"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.178"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.178"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.179"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.179"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.18"/>
   <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.181"/>
-  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.181"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.182"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.182"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.183"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.184"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.184"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.185"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.185"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.186"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.186"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.187"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.187"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.188"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.188"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.189"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.189"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.19"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.19"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.19"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.191"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.192"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.193"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.194"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.194"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.195"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.195"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.196"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.197"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.198"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.198"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.204"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.205"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.205"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.206"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.207"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.207"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.208"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.208"/>
+  <testcase name="testCase1" classname="cs.lab.RegistraAppTest" time="0.209"/>
   <testcase name="testCase2" classname="cs.lab.RegistraAppTest" time="0"/>
   <testcase name="testCase3" classname="cs.lab.RegistraAppTest" time="0"/>
 </testsuite>
